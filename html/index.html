@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />   
     <link rel="stylesheet" href="../css/root.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>CV</title>
@@ -30,18 +33,18 @@
     <main>
 
         
-        <div class="container">
-            <div class="container-gauche">
-                <section class="container-gauche__identite">
-                    <img class="container-gauche__identite__image" src="../images/cv.jpg" alt="photo identite">
+        <div class="container-cv">
+            <div class="container-gauche ">
+                <section class="container-gauche__identite ">
+                    <img class="container-gauche__identite__image   animate__animated animate__flip" src="../images/cv.jpg" alt="photo identite">
                 </section>
                 <section class="container-gauche__identite">
                     <p class="container-gauche__identite__paragraphe">
-                        <i class="icon fab fa-linkedin text-darkblue"></i>Schobert Karine
+                        <i class="icon-linkedin fab fa-linkedin text-darkblue"></i>Schobert Karine
                     </p>
                 </section>
                 <section class="container-gauche__identite">
-                    <h2 class="container-gauche__identite__tire">A propos</h2>
+                    <h2 class="container-gauche__identite__tire text-uppercase">A propos</h2>
                     <p class="container-gauche__identite__paragraphe">
                         Ayant travaillé dans differents domaines, comme la banque,la metalurgie,
                         la plasturgie et autres secteurs, j'ai decidé de me réorienter dans le developpement Web.
@@ -51,34 +54,35 @@
                     </p>
                 </section>
                 <section class="container-gauche__identite">
-                    <h2 class="container-gauche__identite__titre">Contact</h2>
+                    <h2 class="container-gauche__identite__titre text-uppercase ">Contact</h2>
                     <p class="container-gauche__identite__paragraphe">Mobile .......</p>
                     <address class="container-gauche__identite__adresse">Adresse</address><address class="container-gauche__identite__adresse">VILLE</address>
                     <p class="container-gauche__identite__paragraphe">Email:Schobert.karine@sfr.fr</p>
                 </section>
-                <section class="container-gauche__identite">
+                <section class="container-gauche__identite text-uppercase">
                     <h2 class="container-gauche__identite__titre">Competences</h2>
                     <ul class="container-gauche__identite__skills">
-                        <li class="container-gauche__identite__skills__liens"><i class="icon fas fa-check-circle text-darkblue"></i><strong>HTML5 | CSS3</strong></li>
-                        <li class="container-gauche__identite__skills__liens"><i class="icon fas fa-check-circle text-darkblue"></i><strong>Git | Github</strong></li>
-                        <!-- <li class="container-gauche__identite__skills__liens"></li> <i class="icon fas fa-check-circle text-darkblue"></i><strong>Javascript</strong></li>
-                        <li class="container-gauche__identite__skills__liens"></li> <i class="icon fas fa-check-circle text-darkblue"></i><strong>Bootstrap5</strong></li>
-                        <li  class="container-gauche__identite__skills__liens"></li><i class="icon fas fa-check-circle text-darkblue"></i>PHP</li>
-                        <li  class="container-gauche__identite__skills__liens"></li><i class="icon fas fa-check-circle text-darkblue"></i>MySQL</li>
-                        <li class="container-gauche__identite__skills__liens"></li> <i class="icon fas fa-check-circle text-darkblue"></i>Symphony</li>
-                        <li  class="container-gauche__identite__skills__liens"></li><i class="icon fas fa-check-circle text-darkblue"></i>Wordpress</li> -->
+                        <!--a realiser une animation avec barre de progression en % des acquis-->
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">HTML5 | CSS3</strong></li>
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">Git| Github</strong></li>
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">Javascript</strong></li>
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">Bootstrap5</strong></li>
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">PHP</strong></li>
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">MySQL</strong></li>
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">Symphony</strong></li>
+                        <li class="container-gauche__identite__skills__liens"><i class="icon-skills fas fa-check-circle text-darkblue"></i><strong class="skills">Wordpress </strong></li> 
                     </ul>
                 </section>
                 <!--section centre-interet et langue a faire -->
-                <section class="container-gauche__identite">
-                    <h2 class="container-gauche__identite__titre">Langues</h2>
-                    <p class="container-gauche__identite__paragraphe">Français, langue maternelle
+                <section class="container-gauche__identite ">
+                    <h2 class="container-gauche__identite__titre text-uppercase ">Langues</h2>
+                    <p class="container-gauche__identite__paragraphe"><span class="langue">Français</span>: langue maternelle
                         <br>
-                        Anglais, compétences debutant
+                        <span class="langue">Anglais</span>: compétences debutant
                     </p>
                 </section>
                 <section class="container-gauche__identite">
-                    <h2 class="container-gauche__identite__titre">Centre d'interet</h2>
+                    <h2 class="container-gauche__identite__titre text-uppercase">Centre d'interet</h2>
                     <p class="container-gauche__identite__paragraphe">Developper et realiser des sites 
                         <br>
                         Musique, cinema, jardinage
@@ -88,52 +92,83 @@
                 </section>
             </div>
             <div class="container-droite">
+                <div class="container-droite__premier">
                     <section class="container-droite__header">
-                        <h1>Karine <span class="container-droite__header text-blue text-uppercase">SCHOBERT</span></h1>
+                        <h1 class ="container-droite__header__titre text-uppercase">Karine <span class="container-droite__header text-uppercase">SCHOBERT</span></h1>
                     </section>
                     <section class="container-droite__professionnel">
-                         <!-- experience professionnelle -->
-                    <h2>EXPERIENCES<span class="text-blue text-uppercase"> PROFESSIONNELLES</span></h2>
-                    <p>
-                        <strong>2021<i class="fas fa-long-arrow-alt-right"></i>2022</strong>
-                        <br>
-                        <em>Mission interim : Albea plasturgie</em>,Simandre
-                    </p>
-                    <p>
-                        <strong>2020<i class="fas fa-long-arrow-alt-right"></i>2021</strong>
-                        <br>
-                        <em>Mission interim: Silgan plasturgie</em>, Lacrost
-                    </p>
-                    <p>
-                        <strong>2018<i class="fas fa-long-arrow-alt-right"></i>2020</strong>
-                        <br>
-                        <em>Mission interim: Guillot Cobreba, Superfos, Industrie Atlantic, Admr</em>,Cuisery
-                    </p>
-                    <p>
-                        <strong>2007<i class="fas fa-long-arrow-alt-right"></i>2018</strong>
-                        <br>
-                        <em>Superplaque metallurgie</em>, Replonge
-                    </p>
-                    <p>
-                        <strong>1998<i class="fas fa-long-arrow-alt-right"></i>2007</strong>
-                        <br>
-                        <em>Deutsch Bank, araf, bnp</em>, Paris, Belleville sur Saone, Lyon
-                    </p>
+                            <!-- experience professionnelle -->
+                        <h2>EXPERIENCES<span class="text-blue text-uppercase"> PROFESSIONNELLES</span></h2>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>2021<i class="fas fa-long-arrow-alt-right"></i>2022</strong>
+                            <br>
+                            <em>Mission interim : Albea plasturgie</em>,Simandre
+                        </p>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>2020<i class="fas fa-long-arrow-alt-right"></i>2021</strong>
+                            <br>
+                            <em>Mission interim: Silgan plasturgie</em>, Lacrost
+                        </p>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>2018<i class="fas fa-long-arrow-alt-right"></i>2020</strong>
+                            <br>
+                            <em>Mission interim: Guillot Cobreba, Superfos, Industrie Atlantic, Admr</em>,Cuisery
+                        </p>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>2007<i class="fas fa-long-arrow-alt-right"></i>2018</strong>
+                            <br>
+                            <em>Superplaque metallurgie</em>, Replonge
+                        </p>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>1998<i class="fas fa-long-arrow-alt-right"></i>2007</strong>
+                            <br>
+                            <em>Deutsch Bank, araf, bnp</em>, Paris, Belleville sur Saone, Lyon
+                        </p>
 
-                    <p>
-                        <strong>1995<i class="fas fa-long-arrow-alt-right"></i>1998</strong>
-                        <br>
-                        <em>Credit Lyonnais</em>, Chalon sur saone
-                    </p>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>1995<i class="fas fa-long-arrow-alt-right"></i>1998</strong>
+                            <br>
+                            <em>Credit Lyonnais</em>, Chalon sur saone
+                        </p>
                     </section>
-
+                </div>      
                     <!--section a faire scolaire-->
-            </div>
 
+                    <div class="container-droite__second">
+                        <section class="container-droite__header">
+                            <h2>Etudes<span class="text-blue text-uppercase"> Formation</span></h2>
+                        </section>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>2022<i class="fas fa-long-arrow-alt-right"></i>2023</strong>
+                            <br>
+                            <em>Formation a distance developper Web </em>, Oclock
+                        </p>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>1995<i class="fas fa-long-arrow-alt-right"></i>1996</strong>
+                            <br>
+                            <em>Formation BTS banque en Alternance</em>, Nancy
+                        </p>
+                        <p class="container-droite__profession__paragraphe">
+                            <strong>1994<i class="fas fa-long-arrow-alt-right"></i>1995</strong>
+                            <br>
+                            <em>Bac  Stt Option Commerciale</em>, Brignoles
+                        </p>
+                    </div>
+                   
+                    <footer>
+                            <img class="entreprise" src="../images/logoWeb.png" alt="logo web developpement">
+                            <p>KsDeveloppement();2022 ©</p>
+                        </footer>
+                  
+            </div>
+                   
+                        
+                  
         </div>
 
     
     </main>
+    
  
 </body>
 </html>
